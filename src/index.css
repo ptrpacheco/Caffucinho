@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400..800&family=Cherry+Bomb+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --font-cherry: 'Cherry Bomb One', system-ui;
+    --font-baloo: 'Baloo Tamma 2', system-ui;
+}
+
+* {
+    scroll-behavior: smooth;
+}
