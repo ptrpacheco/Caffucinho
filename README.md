@@ -1,51 +1,44 @@
-# React + TypeScript + Vite
+<h1 align='center'>Caffucinho</h1>
+<p align='center'>Projeto realizado em 2024, como parte para a aquisição de nota na matéria de Desenvolvimento de Sistemas na Etec Dr. Júlio Cardoso</p>
+<p align ='center'>
+  <a href='#-sobre'>Sobre</a>
+  &nbsp&nbsp|&nbsp&nbsp
+  <a href='#-desenvolvimento'>Desenvolvimento</a>
+  &nbsp&nbsp|&nbsp&nbsp
+  <a href='#-tecnologias'>Tecnologias</a>
+  &nbsp&nbsp|&nbsp&nbsp
+  <a href='#-licencas'>Licença</a>
+  &nbsp&nbsp|&nbsp&nbsp
+  <a href='https://www.figma.com/community/file/1422676439178901872/caffucinho'>Protótipo</a>
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align=center>
+    <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&lebelColor=000000">
+</p>
 
-Currently, two official plugins are available:
+<p align=center>
+    <img align='center' src='./.github/preview.png'>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💁‍♂️ Sobre o Projeto
+O projeto trata-se de um Website destinado à um restaurante de _Cat Café_ chamado Caffucinho e faz parte de um trabalho acadêmico, do qual os alunos deveriam desenvolver um sistema de uma empresa fictícia, buscando futuros clientes ou interessados.
 
-## Expanding the ESLint configuration
+## 📅 Desenvolvimento
+O projeto foi realizado no segundo semestre de 2024, sendo meu primeiro toque ao React.js e ao Tailwind CSS. Seu desenvolvimento está estagnado na Landing Page, mas possuía objetivos de ter seu próprio banco de dados e back-end em Django. <br />
+Foi prototipado anteriormente no [Figma](https://www.figma.com/community/file/1422676439178901872/caffucinho).
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🤖 Tecnologias
+Esse projeto foi realizado com as seguintes tecnologias:
+<ul>
+    <li>React.js</li>
+    <li>Tailwind CSS</li>
+    <li>Django</li>
+    <li>Git e Github</li>
+    <li>Figma</li>
+</ul>
 
-- Configure the top-level `parserOptions` property like this:
+## 🔑 Licença
+Este projeto está sob a licença MIT.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-# caffucinho
+___
+<p align=center>Desenvolvido por Pietro Pacheco 👤<br>Minhas redes sociais: <a href="https://linktr.ee/pietropacheco">Linktree</a></p>
